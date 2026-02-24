@@ -10,6 +10,6 @@ LABEL org.opencontainers.image.vendor="Fluxus Logicae"
 LABEL org.opencontainers.image.title="Fluxus Logicae Tech & Tools Radar image with nginx alpine"
 LABEL org.opencontainers.image.description="Fluxus Logicae Tech & Tools Radar image with base nginx alpine image that serves a static web page."
 RUN rm -rf /usr/share/nginx/html/*
-COPY dist/ /usr/share/nginx/html/
+COPY build/ /usr/share/nginx/html/fluxus-logicae-techradar/
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
