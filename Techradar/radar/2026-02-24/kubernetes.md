@@ -1,6 +1,6 @@
 ---
 title:      "Kubernetes"
-quadrant:   tool
+quadrant:   platform
 ring:       adopt
 tags:       [ORCHESTRATOR, PLATFORM-ENGINEERING]
 featured:   true

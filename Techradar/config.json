@@ -1,7 +1,7 @@
 {
   "basePath": "/fluxus-logicae-techradar",
   "baseUrl": "",
-  "editUrl": "https://github.com/samiulsaki/techradar/-/blob/main/techRadar/radar/{release}/{id}.md",
+  "editUrl": "https://github.com/samiulsaki/techradar/-/blob/main/TechRadar/{release}/{id}.md",
   "logoFile": "logo.png",
   "jsFile": "",
   "toggles": {
@@ -37,7 +37,7 @@
     },
     {
       "id": "software",
-      "title": "Application framework and Libraries",
+      "title": "Software and Libraries",
       "description": "Covers technologies related to Programming and scripting languages, Frameworks, Libraries, SDKs, API clients, Runtime dependencies.",
       "color": "#F25244"
     },
@@ -75,8 +75,8 @@
     },
     {
       "id": "assess",
-      "title": "RETIRE",
-      "description": "This technology is being decomissioned. No new development or maintenance is expected. ",
+      "title": "ASSESS",
+      "description": "This technology is being assessed. No new development or maintenance is expected. ",
       "color": "#688190",
       "radius": 1,
       "strokeWidth": 0.75
@@ -109,7 +109,7 @@
       "icon": "linkedIn"
     },
     {
-      "href": "https://www.github.com/fluxus-logicae",
+      "href": "https://github.com/Fluxus-Logicae",
       "icon": "github"
     }
   ],
