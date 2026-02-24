@@ -14,5 +14,5 @@ npm run build
 docker build -t techradar . --progress=plain
 docker run -it --rm -p 3000:80 techradar
 ```
-- The url will now be `http://localhost:3000/fluxus-logicae-techradar/`
+- The url will now be available at: `http://localhost:3000/fluxus-logicae-techradar/`
 - Build and run the image every time you want to see your changes.
