@@ -1,7 +1,5 @@
 # How to use the Fluxus Logicae Tech and Tools Radar
 
-TODO: Review this page
-
 ### Introduction
 
 Technology is advancing rapidly, with new technologies and innovations constantly emerging.
