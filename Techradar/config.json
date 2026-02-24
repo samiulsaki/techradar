@@ -1,0 +1,133 @@
+{
+  "basePath": "/fluxus-logicae-techradar",
+  "baseUrl": "",
+  "editUrl": "https://github.com/samiulsaki/techradar/-/blob/main/techRadar/radar/{release}/{id}.md",
+  "logoFile": "logo.png",
+  "jsFile": "",
+  "toggles": {
+    "showChart": true,
+    "showTagFilter": true,
+    "showQuadrantList": true,
+    "showEmptyRings": false
+  },
+  "sections": ["radar", "tags", "list"],
+  "colors": {
+    "foreground": "#fff",
+    "background": "#11405c",
+    "highlight": "#029df7",
+    "content": "#fff",
+    "text": "#575757",
+    "link": "#029df7",
+    "border": "rgba(255, 255, 255, 0.1)",
+    "tag": "rgba(255, 255, 255, 0.1)"
+  },
+  "quadrants": [
+    {
+
+      "id": "platform",
+      "title": "Platforms and Infrastructure",
+      "description": "Covers technologies related to Operating Systems, Cloud platforms, Databases, Containerisation, CI/CD, Network and Security, SaaS platforms.",
+      "color": "#84BFA4"
+    },
+    {
+      "id": "tool",
+      "title": "Development tools and Environments",
+      "description": "Covers technologies related to IDEs, Code editors, Build tools, Debuggers, Local development, CLI, Browser dev tools, Productivity during development",
+      "color": "#248EA6"
+    },
+    {
+      "id": "software",
+      "title": "Application framework and Libraries",
+      "description": "Covers technologies related to Programming and scripting languages, Frameworks, Libraries, SDKs, API clients, Runtime dependencies.",
+      "color": "#F25244"
+    },
+    {
+      "id": "service",
+      "title": "Service and Integrations",
+      "description": "Covers technologies related to Third party APIs, Auth, Analytics, Monitoring, Messaging, any external service.",
+      "color": "#F2A25C"
+    }
+  ],
+  "rings": [
+    {
+      "id": "adopt",
+      "title": "ADOPT",
+      "description": "We recommend this technology for new development. We have used it for longer period of time in many teams and it has proven to be stable and useful. If your need is not covered by any technology in this ring, please raise it to IT management.",
+      "color": "#5cb449",
+      "radius": 0.5,
+      "strokeWidth": 5
+    },
+    {
+      "id": "trial",
+      "title": "TRIAL",
+      "description": "We recognise an interest in this technology and evaluate it's stability and value on non-production development. It is expected to be under trial for a set period of time before being moved into a neighbouring ring.",
+      "color": "#faa03d",
+      "radius": 0.69,
+      "strokeWidth": 3
+    },
+    {
+      "id": "hold",
+      "title": "HOLD",
+      "description": "This Technology is currently used in our organisation but should not be used in any new development. Maintenance is expected on it.",
+      "color": "#029df7",
+      "radius": 0.85,
+      "strokeWidth": 2
+    },
+    {
+      "id": "assess",
+      "title": "RETIRE",
+      "description": "This technology is being decomissioned. No new development or maintenance is expected. ",
+      "color": "#688190",
+      "radius": 1,
+      "strokeWidth": 0.75
+    }
+  ],
+  "flags": {
+    "new": {
+      "color": "#f1235a",
+      "title": "New",
+      "titleShort": "N",
+      "description": "New in this version"
+    },
+    "changed": {
+      "color": "#40a7d1",
+      "title": "Changed",
+      "titleShort": "C",
+      "description": "Recently changed"
+    },
+    "default": {
+      "description": "Unchanged"
+    }
+  },
+  "chart": {
+    "size": 800,
+    "blipSize": 12
+  },
+  "social": [
+    {
+      "href": "https://www.linkedin.com/company/fluxus-logicae/",
+      "icon": "linkedIn"
+    },
+    {
+      "href": "https://www.github.com/fluxus-logicae",
+      "icon": "github"
+    }
+  ],
+  "imprint": "https://www.aoe.com/en/imprint.html",
+  "labels": {
+    "title": "Fluxus LogicaeTech & Tools Radar",
+    "imprint": "Legal Information",
+    "quadrant": "Quadrant",
+    "quadrantOverview": "Quadrant Overview",
+    "zoomIn": "Zoom in",
+    "filterByTag": "Filter by Tag",
+    "footer": "The purpose of this tech radar is to communicate what technologies are in use related to the IT in Fluxus Logicae to provide guidance to new and existing software developers, DevSecOps engineers, security champions, application engineers, platform engineers, architects and others working on creating and maintaining our IT applications and infrastructure.",
+    "notUpdated": "This item was not updated in last three versions of the Radar. Should it have appeared in one of the more recent editions, there is a good chance it remains pertinent. However, if the item dates back further, its relevance may have diminished and our current evaluation could vary. Regrettably, our capacity to consistently revisit items from past Radar editions is limited.",
+    "notFound": "404 - Page not found",
+    "pageAbout": "How to use Fluxus Logicae Tech & Tools Radar?",
+    "pageOverview": "Technologies Overview",
+    "pageSearch": "Search",
+    "searchPlaceholder": "What are you looking for?",
+    "metaDescription": "Stay at the forefront of web dev software and trends with Fluxus Logicae Tech & Tools Radar. Explore insights on IaC, automation, security, infrastructure, monitoring, and more."
+  }
+}
