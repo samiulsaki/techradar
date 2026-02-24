@@ -1,7 +1,7 @@
 {
   "basePath": "/fluxus-logicae-techradar",
   "baseUrl": "",
-  "editUrl": "https://github.com/samiulsaki/techradar/-/blob/main/TechRadar/{release}/{id}.md",
+  "editUrl": "https://github.com/samiulsaki/techradar/-/blob/main/techradar/radar/{release}/{id}.md",
   "logoFile": "logo.png",
   "jsFile": "",
   "toggles": {
